@@ -1,6 +1,7 @@
 const FormNuevoCliente = ({cliente}) => {
     return (
         <div className="w-full">
+
             <div className="mb-4">
                 <label
                     className="text-gray-800"
@@ -14,6 +15,7 @@ const FormNuevoCliente = ({cliente}) => {
                     name="nombre"
                 />
             </div>
+
             <div className="mb-4">
                 <label
                     className="text-gray-800"
@@ -70,6 +72,7 @@ const FormNuevoCliente = ({cliente}) => {
                     name="notas"
                 />
             </div>
+            
         </div>
     )
 }

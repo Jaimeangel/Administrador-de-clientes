@@ -309,7 +309,6 @@ export function Loader(){
 function Index() {
 
   const data=useLoaderData()
-  console.log(data)
 
   return (
     <div>
