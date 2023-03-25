@@ -34,6 +34,7 @@ function NuevoCliente(){
 
   return (
     <div>
+      
       <h1 className="font-bold text-4xl">Crea un nuevo cliente</h1>
       <p className="text-xl mt-3">Llena todos los campos para crear con exito un nuevo cliente</p>
       
@@ -47,6 +48,7 @@ function NuevoCliente(){
       </div>
 
       <div className="md:w-3/4 bg-white mx-auto mt-10 p-6 rounded-md shadow">
+
         {
           errores?.length && errores.map((err,index)=>(
             <ErrorCall key={index}>{err}</ErrorCall>
@@ -67,6 +69,7 @@ function NuevoCliente(){
           />
 
         </Form>
+
       </div>
 
     </div>
