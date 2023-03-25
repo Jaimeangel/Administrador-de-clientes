@@ -1,4 +1,3 @@
-import { data } from "autoprefixer";
 import { useLoaderData } from "react-router";
 import Cliente from "../Components/Cliente";
 import {ObtenerClientes} from '../Data/Clientes'
