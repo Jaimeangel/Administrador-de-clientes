@@ -43,3 +43,15 @@ export async function editarClienteId(data,id){
         console.log(error)
     }
 }
+
+export async function eliminarCliente(id){
+    try {
+        const URL=import.meta.env.VITE_API_URL
+        const posting= await fetch(`${URL}/${id}`,{
+            method:'DELETE'
+        })
+        await posting.json();
+    } catch (error) {
+        console.log(error)
+    }
+}

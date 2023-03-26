@@ -83,7 +83,7 @@ function EditarCliente() {
   
             <input 
               type="submit"
-              value="Registrar Cliente"
+              value="Guardar Cambios"
               className="w-3/4 mt-3 px-6 py-2 text-lg bg-green-500 rounded-md font-bold text-white tracking-wider cursor-pointer uppercase" 
             />
   

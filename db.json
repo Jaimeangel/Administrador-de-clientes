@@ -1,20 +1,6 @@
 {
   "clientes": [
     {
-      "id": 1,
-      "nombre": "Nara",
-      "telefono": "387-140-9178",
-      "email": "nlorkings0@jiathis.com",
-      "empresa": "Rosenbaum-Barton"
-    },
-    {
-      "id": 2,
-      "nombre": "Diana",
-      "telefono": "567-505-3322",
-      "email": "dflewitt1@topsy.com",
-      "empresa": "O'Reilly-Erdman"
-    },
-    {
       "id": 3,
       "nombre": "Maggie",
       "telefono": "697-142-3528",
@@ -169,13 +155,6 @@
       "empresa": "Leuschke, Steuber and Klocko"
     },
     {
-      "id": 25,
-      "nombre": "Craggie",
-      "telefono": "104-953-4221",
-      "email": "ccornisho@ucoz.ru",
-      "empresa": "Bosco-Aufderhar"
-    },
-    {
       "id": 26,
       "nombre": "Kellen",
       "telefono": "986-913-5461",
@@ -230,13 +209,6 @@
       "telefono": "720-469-2147",
       "email": "dhinksenw@about.me",
       "empresa": "Doyle, Schaden and Hartmann"
-    },
-    {
-      "id": 34,
-      "nombre": "Adelina",
-      "telefono": "124-373-6061",
-      "email": "acunniamx@usda.gov",
-      "empresa": "Altenwerth-Bednar"
     },
     {
       "id": 35,
@@ -335,28 +307,6 @@
       "telefono": "177-975-6425",
       "email": "ggartsyde1b@elegantthemes.com",
       "empresa": "Heller, O'Connell and Grady"
-    },
-    {
-      "id": 49,
-      "nombre": "Karole",
-      "telefono": "939-459-4294",
-      "email": "kvonderdell1c@auda.org.au",
-      "empresa": "Larson, Schmidt and Doyle"
-    },
-    {
-      "id": 50,
-      "nombre": "Stern",
-      "telefono": "428-275-7990",
-      "email": "ssurr1d@fema.gov",
-      "empresa": "Altenwerth Inc"
-    },
-    {
-      "nombre": "Jaime Fronted Develover",
-      "empresa": "GIFMA",
-      "email": "jaangelb@unal.edu.co",
-      "telefono": "3102516026",
-      "notas": "Este es un nuevo cliente miralo",
-      "id": 51
     }
   ]
 }
