@@ -5,6 +5,7 @@ import Layaout from './Components/Layaout'
 import NuevoCliente,{action as nuevoClienteAction} from './Pages/NuevoCliente'
 import Index,{Loader as clientsLoader} from './Pages/Index'
 import ErrorPage from './Components/ErrorPage'
+import EditarCliente,{Loader as editClienteLoader, Action as editClientAction} from './Pages/EditarCliente'
 import './index.css'
 
 const router=createBrowserRouter([
@@ -22,6 +23,13 @@ const router=createBrowserRouter([
         path:'/clientes/nuevo',
         element:<NuevoCliente/>,
         action:nuevoClienteAction
+      },
+      {
+        path:'/clientes/:clienteId/editar',
+        element:<EditarCliente/>,
+        loader:editClienteLoader,
+        errorElement:<ErrorPage/>,
+        action:editClientAction
       }
     ]
   }
