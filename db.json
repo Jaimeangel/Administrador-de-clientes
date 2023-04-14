@@ -1,41 +1,6 @@
 {
   "clientes": [
     {
-      "id": 3,
-      "nombre": "Maggie",
-      "telefono": "697-142-3528",
-      "email": "mmatous2@geocities.jp",
-      "empresa": "Nicolas-Runolfsdottir"
-    },
-    {
-      "id": 4,
-      "nombre": "Karee",
-      "telefono": "112-214-5498",
-      "email": "kkopecka3@sitemeter.com",
-      "empresa": "Moen-Brown"
-    },
-    {
-      "id": 5,
-      "nombre": "Rafferty",
-      "telefono": "638-997-3921",
-      "email": "rdenne4@springer.com",
-      "empresa": "Brekke, Breitenberg and Mueller"
-    },
-    {
-      "id": 6,
-      "nombre": "Allen",
-      "telefono": "655-487-7969",
-      "email": "amunro5@wordpress.org",
-      "empresa": "McDermott-Rippin"
-    },
-    {
-      "id": 7,
-      "nombre": "Flo",
-      "telefono": "532-952-6994",
-      "email": "fboss6@washington.edu",
-      "empresa": "Schulist, Mante and Bernhard"
-    },
-    {
       "id": 8,
       "nombre": "Ingaberg",
       "telefono": "594-186-0393",

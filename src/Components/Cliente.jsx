@@ -23,10 +23,14 @@ function Cliente({cliente}) {
             <p><span className="font-bold uppercase">Phone: </span>{telefono}</p>
         </td>
         <td className="py-3 space-y-1">
+
             <button 
               className="px-4 bg-green-500 rounded-md font-bold text-white tracking-wider"
               onClick={()=>navigate(`clientes/${id}/editar`)}
-              >EDITAR</button>
+            >
+              EDITAR
+            </button>
+
             <Form
               method="post"
               action={`/clientes/${id}/eliminar`}
@@ -39,8 +43,10 @@ function Cliente({cliente}) {
               <button
                 type="submit"
                 className="px-4 bg-red-500 rounded-md font-bold text-white tracking-wider"
-              >DELETE
+              >
+                DELETE
               </button>
+              
             </Form>
         </td>
     </tr>
